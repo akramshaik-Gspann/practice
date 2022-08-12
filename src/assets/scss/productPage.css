@@ -1,0 +1,40 @@
+.button-priymary {
+  background-color: red;
+  color: white;
+  pad: 100px;
+}
+
+.product__image img {
+  height: 332px;
+  width: 100%;
+}
+
+.product__card {
+  margin-bottom: 20px;
+}
+
+.product__title {
+  color: #172026;
+  font-size: 16px;
+  font-weight: 600;
+  height: 18px;
+  overflow: hidden;
+}
+
+.product__title:hover {
+  text-decoration: none;
+  color: #172026;
+}
+
+.product__price {
+  color: #172026;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1800px) {
+  .product__image img {
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=productPage.css.map */

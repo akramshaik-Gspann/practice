@@ -1,0 +1,46 @@
+$color_1: #ffffff;
+$color_2: #172026;
+$font-family_1: "Source Serif Pro", serif;
+$background-color_1: #e26a2c;
+$background-color_2: transparent;
+$background-color_3: #f9f9f9;
+$border-color_1: transparent;
+
+.checkOutCart {
+	margin-top: 70px;
+	margin-bottom: 25px;
+	h1 {
+		padding-top: 20px;
+		text-align: center;
+		color: $color_2;
+		text-align: center;
+		font: normal normal 600 40px/45px Source Serif Pro;
+		letter-spacing: 0px;
+		color: #172026;
+		opacity: 1;
+		position: relative;
+		&::before {
+			content: "";
+			background-color: $background-color_1;
+			width: 80px;
+			position: absolute;
+			height: 8px;
+			bottom: -25%;
+			left: 48%;
+		}
+	}
+}
+.cart__right {
+	margin-top: 60px;
+}
+.checkOutTitle{
+	font: normal normal 600 30px/30px Source Serif Pro;
+	padding-left: 75px;
+	// position: relative;
+    // left: 75px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.checkOutCart h1 {
+	  margin-top: 0px;
+	}
+  }

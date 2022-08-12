@@ -1,0 +1,10 @@
+.sliderSize {
+  margin-top: 139px;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px) {
+  .sliderSize {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=slider.css.map */

@@ -1,0 +1,106 @@
+
+// @mixin buttons  ($color){
+//     border-radius: 15px 15px;
+//     // background-color: $color;
+//     height: 40px;
+//     width: 64px;
+// }
+
+// .red_div { 
+//    @include buttons(#172026)
+// }
+// .red_div1 {  
+//     @include buttons(#DFE1E2)
+// }
+// .red_div2 { 
+//     @include buttons(#2D9D78)
+// }
+// .red_div3 { 
+//     @include buttons(#FDBA5E)
+// }
+// .red_div4 {   
+//     @include buttons(#7950E8)
+// }
+// .red_div5{  
+//     @include buttons(#E34850)
+// }
+// .red_div6 {   
+//     @include buttons(#6408D3)
+// }
+// .red_div7 {  
+//     @include buttons(#F9009A)
+// }
+// .red_div8 {  
+//     @include buttons(#EB7327)
+// }
+// .red_div9{   
+//     @include buttons(#57CB76)
+// }
+// .colorfilter {
+//     display: flex;
+//     gap: 2px;
+// }
+// .showmor a{
+//     color:black;
+// }
+// label{
+//     padding-left: 10px;
+//     padding-top:10px;
+// }
+// .filter{
+//     padding-top:20px;
+//     color: #181C24;
+//     font-size: 14px;
+// }
+
+// input[type="checkbox"]{
+//     vertical-align: middle;
+// }
+
+
+
+// .bread .mobile{
+//     display: none;
+//   }
+  
+//   // Media Quries
+  
+//   @media only screen and (max-width: 768px){
+//     .bread .desk{
+//       display: none;
+//     }
+    
+//     .bread .mobile{
+//       display: block;
+//     }
+//     .mobile .cato{
+//         font-size: 1.5rem;
+//     }
+//     .mobile h5{
+//       padding-top: 2rem;
+//       text-align: center;
+//       text-decoration: underline;
+//     }
+//     .mobile h6{
+//       font-size: 1.2rem;
+//       text-align: center;
+//       padding-top: 3rem;
+//     }
+  
+//     .filterone{
+//       display: none;
+//     }
+//   }
+.attribute label{
+  font-weight: normal;
+}
+  @media only screen and (max-width: 320px){
+    .filterone{
+        display:none;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .filterone{
+        display:none;
+    }
+  } 

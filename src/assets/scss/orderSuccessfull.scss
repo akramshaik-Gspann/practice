@@ -1,0 +1,106 @@
+.orderNumberTitle {
+    font: normal normal 600 20px/30px Source Serif Pro;
+}
+.order_details {
+    display: inline;
+    h3 {
+        font: normal normal 600 16px/20px Muli;
+    }
+}
+
+.order_items {
+    padding: 0 0 0 59px;
+}
+.terms_order {
+    font: normal normal normal 16px/24px Muli;
+    letter-spacing: 0px;
+    color: #172026;
+    // padding: 0 0 0 55px;
+}
+
+.order-method {
+    padding: 20px;
+}
+.order_condition {
+    text-align: left;
+    font: normal normal normal 14px/20px Muli;
+    letter-spacing: 0px;
+    color: #172026;
+}
+.orderSuccessfull-right {
+    background-color: #ff8243;
+    padding: 20px;
+}
+.orderSuccessfull-rightColumn {
+    right: 143px;
+}
+
+.imageOne {
+    display: flex;
+
+    img {
+        height: 100px;
+    }
+    div {
+        padding-left: 15px;
+    }
+}
+
+.imageTwo {
+    display: flex;
+    img {
+        height: 100px;
+    }
+    div {
+        padding-left: 15px;
+    }
+}
+
+.order__socialicons {
+    display: flex;
+    justify-content: space-around;
+}
+.order__Summary {
+    text-align: center;
+    font: normal normal 600 28px/45px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.image_description h3 {
+    font: normal normal 600 16px/20px Muli;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .checkOutCart h1::before {
+        content: "";
+        background-color: #e26a2c;
+        width: 120px;
+        position: absolute;
+        height: 8px;
+        bottom: -10%;
+        left: 33%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+    .orderNumberTitle {
+        font: normal normal 600 20px/30px Source Serif Pro;
+        padding-left: 60px;
+    }
+    .orderSuccessfull-rightColumn {
+        position: absolute;
+        right: 125px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .orderNumberTitle {
+        font: normal normal 600 20px/30px Source Serif Pro;
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1800px) {
+    .orderSuccessfull-rightColumn {
+        right: 0px;
+        position: relative;
+    }
+}

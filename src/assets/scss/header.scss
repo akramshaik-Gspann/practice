@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Source+Serif+Pro&display=swap");
+
+$color_1: #ffffff;
+$color_3: #fff;
+$font-family_1: "Righteous";
+$background-color_1: #1f39ff;
+$border-color_1: transparent;
+$teritary-color: #FFD07F;
+
+
+.button-primary {
+	background-color: $background-color_1;
+	font-size: 14px;
+	color: $color_1;
+	border-radius: 25px;
+	text-transform: uppercase;
+	border-color: $border-color_1;
+	padding: 5px 100px;
+}
+body {
+	margin: 0;
+}
+.cartCount1 {
+	// background-color: #e26a2c;
+	// color: white;
+	// position: absolute;
+
+	background-color: #e26a2c;
+	border: none;
+	color: white;
+	border-radius: 6px;
+	padding: 0px 4px;
+	font-size: 11px;
+	position: relative;
+	top: -6px;
+	right: 10px;
+}
+.header {
+	padding: 13px 0;
+	background-color: #e26a2c;
+	// height: 80px;
+	position: fixed;
+	height: 70px;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+.header__content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+.header__logo {
+	a {
+		span {
+			position: absolute;
+			left: 15%;
+			text-decoration: none;
+			font-size: 25px;
+			color: $color_1;
+			font-family: $font-family_1;
+			letter-spacing: 5px;
+			text-decoration: none;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+.logoo {
+	text-decoration: none !important;
+	&:hover {
+		text-decoration: none !important;
+	}
+}
+.header__logo {
+	margin-top: 5px;
+}
+.header__logo img {
+	width: 80px;
+}
+
+.header__categories {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 5px;
+	ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		list-style-type: none;
+		li {
+			a {
+				text-decoration: none;
+				color: $color_1;
+				margin-left: 15px;
+				font-size: 16px;
+				padding-bottom: 15px;
+
+				&:hover,
+				&:focus {
+					color: $teritary-color;
+					border-bottom: 4px solid $teritary-color;
+				}
+
+				&:active {
+					border-bottom: 4px solid $teritary-color;
+				}
+				.active {
+					border-bottom: 4px solid $teritary-color;
+				}
+			}
+		}
+	}
+}
+.header__icons {
+	ul {
+		align-items: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		list-style-type: none;
+		padding: 0;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		margin-bottom: 0;
+		li {
+			a {
+				margin-left: 20px;
+				text-decoration: none;
+				color: $color_1;
+				font-size: 16px;
+			}
+		}
+		img {
+			vertical-align: middle;
+		}
+		.cartCount {
+			position: relative;
+			// right: 100px;
+			a {
+				font-size: 20px;
+			}
+			span {
+				padding-left: 5px;
+				padding-top: 1px;
+				position: absolute;
+				top: -5px;
+				right: -11px;
+				background: #000;
+				color: $color_3;
+				width: 17px;
+				height: 17px;
+				border-radius: 50px;
+				font-size: 12px;
+			}
+		}
+	}
+}
+.header__icons ul .cartCount {
+	top: -2px;
+}
+.search {
+	margin-top: 6px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.cartCount1 {
+		// background-color: #e26a2c;
+		// color: white;
+		// position: absolute;
+
+		background-color: #e26a2c;
+		border: none;
+		color: white;
+		border-radius: 6px;
+		padding: 0px 4px;
+		font-size: 11px;
+		position: relative;
+		top: -6px;
+		right: 10px;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+	.hamburgerPhone {
+		display: none;
+	}
+	// .header__logo {
+	// 	left: 30%;
+	// 	position: absolute;
+	// 	top: 12px;
+	// 	// left: 85px;
+	// }
+	// .header__logo img {
+	// 	width: 125px;
+	// }
+}
+
+// @media only screen and (min-width: 1400px) and (max-width: 2000px) {
+// 	.header__logo img {
+// 		width: 125px;
+// 	}
+// }

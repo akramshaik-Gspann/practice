@@ -1,0 +1,151 @@
+.placeOrderCart {
+  margin-bottom: 25px;
+}
+
+.placeOrderCart h1 {
+  text-align: center;
+  font: normal normal 600 40px/45px Source Serif Pro;
+  letter-spacing: 0px;
+  color: #172026;
+  opacity: 1;
+  position: relative;
+}
+
+.placeOrderCart h1::before {
+  content: "";
+  background-color: #ff8243;
+  width: 80px;
+  position: absolute;
+  height: 8px;
+  bottom: -25%;
+  left: 48%;
+}
+
+.items-inorder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.items-inorder img {
+  width: 80px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.placeOrderTitle {
+  font: normal normal 600 30px/30px Source Serif Pro;
+}
+
+.pricing-detail {
+  border: 1px solid #d1d3d6;
+  padding: 20px;
+  position: relative;
+  bottom: 35px;
+  font-weight: smaller;
+}
+
+.terms {
+  text-align: center;
+  font: normal normal normal 16px/24px Muli;
+}
+
+.terms_condition {
+  color: #172026;
+}
+
+.condition {
+  color: #172026;
+  text-decoration: underline;
+}
+
+.cartA {
+  margin-bottom: 70px;
+}
+
+.placeorder-method {
+  border: 1px solid #d1d3d6;
+  padding: 20px;
+  margin-left: 0px;
+}
+
+.payment__method {
+  position: relative;
+  /* top: 15px; */
+  padding: 20px;
+}
+
+.placeOrder_btn {
+  text-align: center;
+}
+
+.editIcon {
+  top: -30px;
+}
+
+.editIcon img {
+  padding: 5px 20px;
+}
+
+.editIcon span {
+  color: #e26a2c;
+  cursor: pointer;
+}
+
+.editIcon2 img {
+  padding: 5px 20px;
+}
+
+.editIcon2 span {
+  color: #e26a2c;
+  cursor: pointer;
+}
+
+.editIcon3 img {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.editIcon3 span {
+  color: #e26a2c;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .placeOrderCart h1::before {
+    left: 35%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .payment__method {
+    position: relative;
+    padding: 20px;
+  }
+  .editIcon2 {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1800px) {
+  .editIcon2 {
+    text-align: right;
+  }
+  .editIcon3 {
+    text-align: right;
+  }
+  .placeOrderCart {
+    margin-top: 70px;
+  }
+  .placeorder-method {
+    margin-left: -20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .placeorder-method {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+/*# sourceMappingURL=placeOrder.css.map */

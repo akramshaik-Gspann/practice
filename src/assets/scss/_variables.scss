@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Serif+Pro&display=swap');
+
+$secondary-color: #1B252C;
+$teritary-color: #FFFFFF;
+$footer-text: #545D63;
+$footer-head: #172026;
+$product-text:#172026;
+
+@mixin flex-props {
+    display: flex;
+    justify-content: space-between;
+}
+
+// button style variables
+$button-border-radius: 25px;
+$button-text-transform: uppercase;
+$button-font: 14px;
+
+.button-primary{
+    background-color: $button-bg-color;
+    font-size: $button-font;
+    color: $teritary-color;
+    border-radius: $button-border-radius;
+    text-transform: $button-text-transform;
+    border-color: transparent;
+    padding: 5px 100px;
+}
+
+// Media queries
+
+@mixin responsive($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (min-width: 320px) and (max-width: 767px) { @content };
+    }
+    @if $breakpoint == tablet {
+        @media only screen and (min-width: 768px) and (max-width: 991px) { @content };
+    }
+    @if $breakpoint == medium {
+        @media only screen and (min-width: 1024px) and (max-width: 1200px) { @content };
+    }
+    @if $breakpoint == desktop {
+        @media only screen and (min-width: 1440px) and (max-width: 1600px) { @content };
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 1920px) and (max-width: 2000px) { @content };
+    }
+}
+

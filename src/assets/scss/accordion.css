@@ -1,0 +1,47 @@
+h1 {
+  font-family: "Source Serif Pro", serif;
+}
+
+h2 {
+  font-family: "Source Serif Pro", serif;
+}
+
+h3 {
+  font-family: "Source Serif Pro", serif;
+}
+
+.button-primary {
+  background-color: #1f39ff;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border-color: transparent;
+  padding: 5px 100px;
+}
+
+.MuiAccordion-root {
+  position: inherit !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #d1d3d6;
+  color: #172026 !important;
+}
+
+.makeStyles-heading-2 {
+  font-size: 20px !important;
+  vertical-align: middle;
+}
+
+.makeStyles-secondaryHeading-3 {
+  font-size: 14px !important;
+  color: #172026 !important;
+  margin-top: 5px !important;
+}
+
+.MuiAccordionSummary-content {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=accordion.css.map */
